@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", "Sans Serif";
+    /* #5955b3
+    #8488dc
+    #bebebe */
+}
+
+.navbar-container{
+    display: inline;
+    position: absolute;
+    top: 30px;
+    width: 90vw;
+    height: 40px;
+}
+
+.brand-logo{
+    position: absolute;
+    left: 100px;
+    width: 115px;
+}
+
+.list{
+    display: inline;
+    position: absolute;
+    left: 270px;
+    top: 7px;
+    cursor: pointer;
+}
+
+.list-item{
+    display: inline;
+    position: relative;
+    margin: 0px 10px;
+    color: #bebebe;
+}
+
+.list-item:hover{
+    color: #000000;
+    font-weight: 700;
+}
+
+.nav-button{
+    position: absolute;
+    right: 0px;
+    padding: 12px 21px;
+    background-color: #5955b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+/* Hero Container */
+.banner-container{
+    position: absolute;
+    top: 143px;
+}
+
+.heading-text{
+    position: absolute;
+    left: 100px;
+    /* outline: 1px solid black; */
+    width: 380px;
+    font-size: 52px;
+}
+
+span{
+    color: #8488dc;
+}
+
+.description{
+    position: absolute;
+    width: 360px;
+    left: 100px;
+    top: 246px;
+    color: #000000;
+
+}
+
+.submit-button{
+    padding: 15px 28px;
+    width: 170px;
+    background-color: #5955b3;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    position: absolute;
+    left: 100px;
+    top: 340px;
+    text-align: center;
+}
+
+.ill-image{
+    position: absolute;
+    left: 501px;
+    width: 760px;
+    height: 490px;
+    top: -50px;
+
+}
